@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/number_of_people"
-        android:textSize="@dimen/text_size" />
+        android:textSize="24sp"
         android:labelFor="@id/num_attend_edit_text" />
 
     <EditText
@@ -73,6 +73,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        style="@style/CalcButton"
-        android:onClick="calculateClick" />
+        android:onClick="calculateClick"
+        style="@style/CalcButton"/>
 </LinearLayout>
